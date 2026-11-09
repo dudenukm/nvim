@@ -26,6 +26,7 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
+    { import = "plugins.colorschemes" },
     { "MunifTanjim/nui.nvim", lazy = true },
   }
   -- Configure any other settings here. See the documentation for more details.
